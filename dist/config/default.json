@@ -1,0 +1,51 @@
+{
+    "df1": {
+        "port": "/dev/ttyUSB0",
+        "baudRate": 19200
+    },
+    "mqtt": {
+        "brokerUrl": "mqtt://localhost:1883",
+        "clientId": "df1-gateway",
+        "topicPrefix": "plc/df1"
+    },
+    "tags": [
+        {
+            "name": "N7_0",
+            "address": "N7:0",
+            "size": 10,
+            "pollRate": 1000,
+            "writeable": true
+        },
+        {
+            "name": "B3_0",
+            "address": "B3:0",
+            "size": 10,
+            "pollRate": 1000,
+            "writeable": true
+        },
+        {
+            "name": "F31_0",
+            "address": "F8:0",
+            "size": 10,
+            "pollRate": 1200
+        },
+        {
+            "name": "F31_11",
+            "address": "F31:11",
+            "size": 10,
+            "pollRate": 1500
+        },
+        {
+            "name": "F32_0",
+            "address": "F32:0",
+            "size": 10,
+            "pollRate": 2000
+        },
+        {
+            "name": "F32_11",
+            "address": "F32:11",
+            "size": 10,
+            "pollRate": 2500
+        }
+    ]
+}

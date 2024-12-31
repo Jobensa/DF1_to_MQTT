@@ -1,0 +1,28 @@
+{
+    "name": "df1-mqtt-gateway",
+    "version": "1.0.0",
+    "description": "DF1 to MQTT Gateway",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "node dist/index.js",
+        "build": "tsc",
+        "dev": "ts-node src/index.ts",
+        "watch": "tsc -w"
+    },
+    "dependencies": {
+        "@types/mqtt": "^0.0.34",
+        "config": "^3.3.12",
+        "mqtt": "^5.10.3",
+        "serialport": "^13.0.0",
+        "winston": "^3.17.0"
+    },
+    "devDependencies": {
+        "@types/config": "^3.3.5",
+        "@types/node": "^22.10.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "keywords": [],
+    "author": "José B. Salamanca Vargas",
+    "license": "ISC"
+}
