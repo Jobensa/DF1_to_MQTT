@@ -96,4 +96,4 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros a través de [tu-email@example.com](mailto:tu-email@example.com).
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros a través de [jose.bsalamanca@makesens.com.co](mailto:jose.bsalamanca@makesens.com.co)
