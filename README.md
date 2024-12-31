@@ -20,7 +20,7 @@ DF1-MQTT Gateway es una aplicación que permite la comunicación entre dispositi
 1. Clona el repositorio:
 
     ```sh
-    git clone https://github.com/tu-usuario/df1-mqtt-gateway.git
+    git clone https://github.com/Jobensa/DF1_to_MQTT.git
     cd df1-mqtt-gateway
     ```
 
