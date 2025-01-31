@@ -13,7 +13,7 @@ export class MQTTService extends EventEmitter {
     private retries = 0;
     private mqttClient!: MqttClient;
 
-    private dataTags: Map<string, Tag> = new Map();
+   
 
     constructor(config: any) {
         super();

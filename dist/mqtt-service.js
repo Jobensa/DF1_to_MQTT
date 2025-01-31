@@ -43,7 +43,6 @@ class MQTTService extends events_1.EventEmitter {
     constructor(config) {
         super();
         this.retries = 0;
-        this.dataTags = new Map();
         this.config = config;
         this.connectToBroker();
     }

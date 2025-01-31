@@ -125,7 +125,7 @@ export class DF1Service extends EventEmitter {
         }
     }
 
-    private formatReadValue(address: string, data: number[]): string {
+    private formatReadValue(address: string, data: number[]): string{
         const type = address[0].toUpperCase();
 
         switch (type) {

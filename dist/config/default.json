@@ -30,8 +30,8 @@
             "pollRate": 1200
         },
         {
-            "name": "F31_11",
-            "address": "F31:11",
+            "name": "F31_10",
+            "address": "F31:10",
             "size": 10,
             "pollRate": 1500
         },
@@ -42,8 +42,8 @@
             "pollRate": 2000
         },
         {
-            "name": "F32_11",
-            "address": "F32:11",
+            "name": "F32_10",
+            "address": "F32:10",
             "size": 10,
             "pollRate": 2500
         }
