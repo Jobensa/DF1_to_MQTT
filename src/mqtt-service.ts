@@ -2,7 +2,7 @@ import * as mqtt from 'mqtt';
 import { MqttClient } from 'mqtt';
 import { EventEmitter } from 'events';
 import { logger } from './utils/logger';
-import { Tag } from './interfaces/tag.interface';
+//import { Tag } from './interfaces/tag.interface';
 
 const MAX_RETRIES = Infinity; // Infinite retries
 const RETRY_DELAY = 10000; // 10 seconds
