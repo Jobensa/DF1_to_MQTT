@@ -10,8 +10,8 @@
     },
     "tags": [
         {
-            "name": "N7_0",
-            "address": "N7:0",
+            "name": "N22_0",
+            "address": "N22:0",
             "size": 10,
             "pollRate": 1000,
             "writeable": true
@@ -44,6 +44,18 @@
         {
             "name": "F32_10",
             "address": "F32:10",
+            "size": 10,
+            "pollRate": 2500
+        },
+        {
+            "name": "F32_20",
+            "address": "F32:20",
+            "size": 10,
+            "pollRate": 2500
+        },
+        {
+            "name": "F32_30",
+            "address": "F32:30",
             "size": 10,
             "pollRate": 2500
         }

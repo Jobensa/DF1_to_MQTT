@@ -101,7 +101,6 @@ function loadConfig() {
     }
 }
 
-
 main().catch(error => {
     logger.error('Unhandled error in main:', {
         error: (error as Error).message,
