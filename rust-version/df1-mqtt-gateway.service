@@ -1,0 +1,27 @@
+[Unit]
+Description=DF1-MQTT Gateway (Rust)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/opt/df1-mqtt-gateway
+ExecStart=/opt/df1-mqtt-gateway/df1-mqtt-gateway /opt/df1-mqtt-gateway/config/default.json
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# Security hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/df1-mqtt-gateway/logs
+
+# Serial port access
+SupplementaryGroups=dialout
+
+[Install]
+WantedBy=multi-user.target

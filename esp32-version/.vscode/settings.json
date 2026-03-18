@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "*.h": "cpp",
+        "*.cpp": "cpp",
+        "*.ino": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "default",
+    "editor.formatOnSave": false,
+    "platformio-ide.activateProjectOnTextEditorChange": false,
+    "platformio-ide.autoRebuildAutocompleteIndex": true,
+    "platformio-ide.customPATH": null,
+    "platformio-ide.useBuiltinPIOCore": true,
+    "platformio-ide.useDevelopmentPIOCore": false,
+    "platformio-ide.autoCloseSerialMonitor": true,
+    "platformio-ide.forceUploadAndMonitor": false,
+    "platformio-ide.buildTask": "PlatformIO: Build",
+    "platformio-ide.uploadTask": "PlatformIO: Upload",
+    "terminal.integrated.env.linux": {
+        "PATH": "${env:PATH}",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.osx": {
+        "PATH": "${env:PATH}",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH}",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
