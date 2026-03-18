@@ -4,7 +4,7 @@ use std::time::Duration;
 use tokio::io::{AsyncReadExt, AsyncWriteExt};
 use tokio::time::timeout;
 use tokio_serial::{SerialPort, SerialPortBuilderExt, SerialStream};
-use tracing::{debug, error, info, warn};
+use tracing::{debug, info, warn};
 
 const DF1_CMD_READ: u8 = 0x0F;
 const DF1_CMD_WRITE: u8 = 0x0E;

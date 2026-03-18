@@ -1,9 +1,9 @@
 use anyhow::{Context, Result};
-use rumqttc::{AsyncClient, Event, EventLoop, MqttOptions, Packet, QoS};
+use rumqttc::{AsyncClient, Event, MqttOptions, Packet, QoS};
 use serde_json::json;
 use std::time::Duration;
 use tokio::task::JoinHandle;
-use tracing::{debug, error, info, warn};
+use tracing::{debug, error, info};
 
 pub struct MqttClient {
     client: AsyncClient,
@@ -27,7 +27,6 @@ impl MqttClient {
 
         let mut mqtt_options = MqttOptions::new(client_id, broker_url, port);
         mqtt_options.set_keep_alive(Duration::from_secs(60));
-        mqtt_options.set_connection_timeout(30);
 
         if let (Some(user), Some(pass)) = (username, password) {
             mqtt_options.set_credentials(user, pass);
